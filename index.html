@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Edu</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="title22">EDUSCAPE</div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#about_section">About us</a></li>
+				<li><a href="index11.html">Quiz</a></li>
+				<li><a href="#services_section">Services & Oppurtunities</a></li>
+				<li><a href="#contactus_section">Support</a></li>
+			</ul>
+			
+			<!--login page-->
+			<a class="get-started" href="login.html">Sign In</a>
+			<img src = "images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>“Education is the key to unlocking the world, a passport to freedom.” - Oprah Winfrey </p>
+				<h5>When girls are educated, their countries become stronger and more prosperous.</h5>
+			</div>
+			<div class="svg-image">
+				<img src ="images/extra/svg1.png" alt="svg">
+			</div>
+		</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src = "images/icon/close.png" alt=""></div>
+			
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">About us</a></li>
+				<li><a href="index11.html">Quiz</a></li>
+				<li><a href="#services_section">Services & Oppurtunities</a></li>
+				<li><a href="#contactus_section">Support</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+<!-- Some Popular Subjects -->
+
+	<section id="access">
+	<div class="title" id = "free">
+		<center><p style="font-size: 50px; padding: 100px">FREE TO ACCESS</p></center>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="subjects/computer_courses.html">Computer Core</a></div>
+		<div class="det"><a href="subjects/jee.html#sample_papers">JEE</a></div>
+		<div class="det"><a href="index11.html"> Quiz</a></div>
+		</div></center>
+		<div class="cbox">
+		
+		<div class="det"><a href="subjects/computer_courses.html#data">Data Structures</a></div>
+		<div class="det"><a href="subjects/computer_courses.html#algo">Algorithm</a></div>
+		<div class="det det-last"><a href="subjects/computer_courses.html#projects">Projects</a></div>
+		</div>
+	</div>
+	</section>
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/e3.avif">
+				</div>
+				<div class="side-text">
+					<h2>Our Vision And Mission</h2>
+					<p>The problem we visibly see in our state mainly is the lack of good communication skills in English which is proving to be a huge barrier for many underprivileged children mainly those in govt schools and other village schools. We sought to create an educational website to eliminate this issue<br><br>The website will be a bridge to glue the gap in the lack of communication skills of the students. the targeted audience will be women as we strongly feel they are underrepresented in the workforce.This website will contain good student faculty who will mentor these girls through live sessions and educate them on the current technology too. We will conduct tests and choose the meritorious students to be handled by the alumni network and get them the reqd help and help others come up too.</p>
+				</div>
+		</div>
+	</div>
+
+
+<!-- PORTFOLIO -->
+	<div class="diffSection" id="portfolio_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Portfolio</p></center>
+		<div class="content">
+			<p>“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” </p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>We're increasing this data every year</p>
+		<div class="smbox">
+		<span><center><div class="data">154</div><div class="det">Enrolled Students</div></center></span>
+		<span><center><div class="data">62</div><div class="det">Total Courses</div></center></span>
+		<span><center><div class="data">56</div><div class="det">Placed Students</div></center></span>
+		<span><center><div class="data">27</div><div class="det">Total Projects</div></center></span>
+		</div>
+	</div>
+
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>
+		</div>
+		<a href="subjects/computer_courses.html"><div class="s-card"><img src ="images/icon/computer-courses.png"><p>Free Online Computer Courses</p></div></a>
+		<a href="subjects/jee.html"><div class="s-card"><img src = "images/icon/brainbooster.png"><p>Building Concepts for Competitive Exams</p></div></a>
+		<a href="#"><div class="s-card"><img src ="images/icon/online-tutorials.png"><p>Improve Communication Skill</p></div></a>
+		<a href="subjects/jee.html#sample_papers"><div class="s-card"><img src ="images/icon/papers.jpg"><p>Sample Papers of Various Competitive Exams</p></div></a>
+		<a href="#"><div class="s-card"><p>Collaboration with industry leaders</p></div></a>
+		<a href="index11.html"><div class="s-card"><img src = "images/icon/q1.png"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src = "images/icon/discussion.png"><p>Discussion with Our Tutors & Mentors</p></div></a>
+		<a href="#"><div class="s-card"><p>Financial Support</div></a>
+		<a href="#contactus_section"><div class="s-card"><img src = "images/icon/help.png"><p>24x7 Online Support</p></div></a>
+	</div>
+
+
+<!-- FEEDBACK -->
+	<div class="title2" id="feedBACK">
+		<h1>Feedback</h1>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback and suggestions</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto:@gmail.com" method="post" enctype="text/plain">
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Feedback and suggestions</label><br>
+				<textarea name="addtional" placeholder="Please drop your feedback and suggestions"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div>
+
+
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src = "images/icon\fb.png"></a>
+					<a href="#"><img src = "images/icon\insta.png"></a>
+					<a href="#"><img src= "images/icon\tt.png"></a>
+					<a href="#"><img src ="images/icon\ytube.png"></a>
+					<a href="#"><img src = "images/icon\linkedin.png"></a>
+				
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
